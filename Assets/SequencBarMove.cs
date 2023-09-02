@@ -33,8 +33,10 @@ public class SequencBarMove : MonoBehaviour
         //print(endTime);
         //nowX = nowX + 1;
         //------
-        
-
+        float retio = nowTime / endTime;
+        float posXLength = endX - startX;
+        float nowBarX = posXLength * retio;
+        nowX = startX + nowBarX;
         //------
         nowBar.localPosition = new Vector3(nowX, nowBar.localPosition.y, nowBar.localPosition.z);
     }
