@@ -26617,7 +26617,6 @@ RectTransform:
   - {fileID: 972968462}
   - {fileID: 1462850889}
   - {fileID: 1159897769}
-  - {fileID: 1387595189}
   - {fileID: 478719369}
   - {fileID: 888392264}
   - {fileID: 16035620}
@@ -26882,6 +26881,7 @@ RectTransform:
   - {fileID: 2004535890}
   - {fileID: 1187292147}
   - {fileID: 281177046}
+  - {fileID: 1387595189}
   - {fileID: 1738380024}
   - {fileID: 1329579542}
   - {fileID: 2076553894}
