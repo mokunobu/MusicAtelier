@@ -10,13 +10,15 @@ public class SequencBarMove : MonoBehaviour
     public RectTransform endBar;
 
     float nowX;
+    float startX;
+    float endX;
 
     // Start is called before the first frame update
     void Start()
     {
-        float startX = nowBar.localPosition.x;
+        startX = nowBar.localPosition.x;
+        endX = endBar.localPosition.x;
         print(startX);
-        float endX = endBar.localPosition.x;
         print(endX);
         nowX = startX;
     }
@@ -29,7 +31,11 @@ public class SequencBarMove : MonoBehaviour
         AudioClip clip = audioSource.clip;
         float endTime = clip.length;
         //print(endTime);
-        nowX = nowX + 1;
+        //nowX = nowX + 1;
+        //------
+        
+
+        //------
         nowBar.localPosition = new Vector3(nowX, nowBar.localPosition.y, nowBar.localPosition.z);
     }
 }
