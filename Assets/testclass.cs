@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class Startcontroller : MonoBehaviour
+public class testclass : MonoBehaviour
 {
-    int[] BPlayArray = new int[32];
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +15,9 @@ public class Startcontroller : MonoBehaviour
     {
         
     }
-    public void SwitchScene()
+
+    public void testMethod()
     {
-        SceneManager.LoadScene("TalkScene", LoadSceneMode.Single);
+        print("test");
     }
 }
